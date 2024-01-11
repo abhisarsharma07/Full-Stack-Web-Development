@@ -1,0 +1,38 @@
+*{/*Universal selector*/
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.wrapper{/* THE HEIGHT OF WRAPPER IS THAT EQUAL TO VIEW PORT SO THAT COMPKETE CODE COME INSIDE IT  */
+     height: 100vh;
+     overflow-x: hidden;
+     overflow-y: auto;
+     perspective: 10px;/* 3d*/
+} 
+.container{
+position: relative;
+display:flex;/* for display flex*/
+justify-content: center;
+align-items: center;
+height: 100%;
+transform-style: preserve-3d;/* for 3d wala kuch hatana nahi hai*/
+z-index: -1;/*default value 0*/
+
+}
+.background{
+     transform: translateZ(-40px) scale(5);/*Z axis ka matlab screen ke andar */
+
+}
+.foreground{
+     transform: translateZ(-20px) scale(3);
+}
+
+.background,.foreground{
+position: absolute;/*it will be wrt to relative*/
+height: 100%;
+width: 100%;
+z-index: -1;/*iske karan ADVENTURE upar aa jayega beech me*/
+/*object-fit: cover;*//* fit image in container (poora width cover kar legi image*/
+/* the css object fit property is used to specify how an <img> or <video> should be resized to fit its container*/
+} 

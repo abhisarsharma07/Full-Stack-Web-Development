@@ -1,0 +1,19 @@
+.box{
+     height: 100px;
+     width: 200px;
+      border: 1px solid black;
+     margin: 10px;/*for gap between box(div) we use margin */
+     /*the space between the content(here A B C ) and border is called padding*/
+      padding: 25px;/*if i dont want when i apply padding then the size of box should not change then we will use box-sizing:border box */
+}
+#org{/* hexadecimal colours*/
+
+     background-color: #ff0000;
+
+}
+#wht{/* rgb colours*/
+     background-color: rgb(200, 255, 40);
+}
+#green{/*predefined colour */
+     background-color: green;
+} 

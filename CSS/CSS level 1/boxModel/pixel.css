@@ -1,0 +1,18 @@
+#div1{
+     background-color: red;
+     width: 500px;
+     height: 100px;
+}
+#div2{
+     background-color: aqua;
+     width: 10%;
+     height: 10%;/*10 %od parent element*/
+     margin: 10px;
+     padding: 10px;
+
+}
+#firstPara{
+     background-color: aqua;
+     width: 50vw;
+     height:20vh;
+}

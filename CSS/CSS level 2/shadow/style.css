@@ -1,0 +1,18 @@
+h1{
+     text-shadow: 3px 3px 3px ;
+     text-shadow: 3px 3px 3px red;
+     text-shadow: 3px 3px 3px red,60px 6px 6px green ;
+     /*           HORIZONTAL       ,     VERTICAL*/
+/* agar same operation kar rahe hai to hamesha last wali line execute hogi*/
+
+}
+.BOX{
+     background-color: aqua;
+     width:200px;
+     height: 200px;
+     box-shadow: 10px 10px 15px red ;
+     box-shadow: 10px 10px 15px red,10px 10px 15px yellow ;/* multiple shadows */
+/* agar same operation kar rahe hai to hamesha last wali line execute hogi*/
+/*by using negativee in front of size we will get direction change of shadow */
+
+}

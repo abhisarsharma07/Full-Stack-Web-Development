@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    table,tr,td,th {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+    </style>
+</head>
+<body>
+    <!-- upar style wala css ka part hai but woh table ke borders
+    banane me kaam aa raha hai-->
+    <table>
+        <caption>My first savings</caption>
+        <tr>
+            <td>Month</td><!--is row me 2 column chahiye-->
+            <td>Savings</td>
+        </tr>
+        <tr>
+        <td>January</td>
+        <td>100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>March</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>600</td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>My first savings</caption>
+        <thead>
+        <tr>
+            <th>Month</th><!--BEST PRACTICE-->
+            <th>Savings</th><!--th for boldness-->
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+        <td>January</td>
+        <td>100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>March</td>
+            <td>200</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+        <tr>
+            
+            <td>Total</td>
+            <td>600</td>
+        </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
