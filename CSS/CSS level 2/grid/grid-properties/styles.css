@@ -1,0 +1,51 @@
+.container{
+     border:1px solid brown;
+     background-color: yellow;
+     height: 700px;
+     width: 400px;
+     display:grid;
+     grid-template-columns: 100px 100px 100px;
+     grid-template-rows: 100px 100px;
+     grid-gap:10px;
+
+/* justify content work on main axis or horizontal axis */
+     /* justify-content: start;
+     justify-content: end;
+     justify-content: center;
+     justify-content: space-between;
+     justify-content: space-around;
+     justify-content: space-evenly;*/
+
+     /* align items work on vertical axis */
+     /* align-items: start;
+     align-items: end;
+     align-items:baseline;
+     align-items: stretch;  default */
+
+
+     /* align-content: space-between;
+     align-content: space-around; */
+
+
+/*  place-items-> short hand for justify and align  */
+place-content: center;
+
+/* justify-items me width me change hojayega but justify content me sirf position change  hogi but size change nahi hogi */
+
+
+} 
+.box{
+     border:1px solid red;
+     background-color: aqua;
+}
+#box1{
+     /* child properties */
+     /* justify-self: start;  // justify self is main axis proprty 
+     justify-self: end;
+     justify-self: center; */
+
+     /* align self is vertical axis property */
+     /* align-self:center; */
+    background-color: red;
+
+}
