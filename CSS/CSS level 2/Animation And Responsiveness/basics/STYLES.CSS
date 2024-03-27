@@ -1,0 +1,18 @@
+
+/* globality provide by root */
+:root{
+     --dark-red:#981a2c;/*  global variable -poore code me kahi bhi use  */
+}
+
+.container{
+     border:1px solid brown;
+     background-color: red;
+     height: 300px;
+     width:300px;
+}
+.box{
+     border: 2px solid green;
+    background-color: aqua;
+    --dark-red :#981a2c;     /* local variable-particular class me use */  /* variable creation using --sign  */
+    color: var(--dark-red);/*   var use */
+}

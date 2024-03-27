@@ -1,0 +1,7 @@
+ <!-- lets an element gradually changes from one state to another called animation-->
+ //functions
+ rgb() is a function.
+calc(100% -50px)
+minmax() used with grid-auto-rows
+//variables
+blue->#981a2c
